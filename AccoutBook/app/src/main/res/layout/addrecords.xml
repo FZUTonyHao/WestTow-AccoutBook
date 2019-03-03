@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+    android:layout_width="fill_parent"
+	android:layout_height= "fill_parent"
+    >
+
+	<TableRow android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:paddingLeft="15dip"
+		android:paddingRight="15dip"
+		>
+	
+	<TextView android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:text="@string/action"
+	/>
+		<EditText android:id="@+id/maction"
+			android:layout_width="wrap_content"
+			android:minWidth="180dip"
+			android:layout_height="wrap_content"
+			android:hint="@string/what"
+			/>
+	
+	</TableRow>
+
+	<TableRow android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:paddingLeft="15dip"
+		android:paddingRight="15dip"
+		>
+
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/time"
+			/>
+		<EditText android:id="@+id/mtime"
+			android:layout_width="wrap_content"
+			android:minWidth="180dip"
+			android:layout_height="wrap_content"
+			/>
+
+	</TableRow>
+
+
+		<TableRow
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"		
+		>
+		
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/money"
+			/>
+		
+		<EditText 
+			android:id="@+id/mmoney"
+			android:layout_width="wrap_content"			
+			android:layout_height="wrap_content"
+			android:minWidth="180dip"
+			android:numeric="integer"
+		/>
+			
+	</TableRow>
+	
+	<TableRow android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:paddingLeft="15dip"
+		android:paddingRight="15dip"
+		android:gravity="center"
+		>
+	
+		<TextView 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:text="@string/type"
+		/>
+		
+		<RadioGroup 
+			android:id="@+id/mtypegroup"
+			android:orientation="horizontal"
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"
+		>
+		
+		
+		<RadioButton 		
+			android:id="@+id/mpay"
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"
+			android:text="@string/pay"
+		/>
+		
+		<RadioButton 		
+			android:id="@+id/mincome"
+			android:layout_width="wrap_content"  
+			android:layout_height="wrap_content"
+			android:text="@string/income"
+		/>
+		
+		</RadioGroup>
+	</TableRow>
+	
+
+	
+	
+		<TableRow android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="5dip"
+		android:paddingLeft="15dip"
+		android:gravity="center"
+		>
+		
+		<ImageButton 
+			android:id="@+id/addsure"
+			android:src="@drawable/accept"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_marginLeft="5dip"
+			android:layout_marginRight="5dip"
+		/>
+		<ImageButton 
+			android:id="@+id/addcancel"
+			android:src="@drawable/cancel2"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_marginLeft="5dip"
+			android:layout_marginRight="5dip"
+		/>
+	</TableRow>
+</LinearLayout>

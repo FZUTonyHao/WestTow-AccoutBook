@@ -1,0 +1,81 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\MyBill\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from D:\MyBill\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from D:\MyBill\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from D:\MyBill\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from D:\MyBill\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from D:\MyBill\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from D:\MyBill\app\src\main\AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from D:\MyBill\app\src\main\AndroidManifest.xml:3:7-37
+		INJECTED from D:\MyBill\app\src\main\AndroidManifest.xml
+		INJECTED from D:\MyBill\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\MyBill\app\src\main\AndroidManifest.xml:5:7-32
+		INJECTED from D:\MyBill\app\src\main\AndroidManifest.xml
+		INJECTED from D:\MyBill\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\MyBill\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from D:\MyBill\app\src\main\AndroidManifest.xml:4:7-30
+		INJECTED from D:\MyBill\app\src\main\AndroidManifest.xml
+		INJECTED from D:\MyBill\app\src\main\AndroidManifest.xml
+application
+ADDED from D:\MyBill\app\src\main\AndroidManifest.xml:6:5-19:19
+	android:label
+		ADDED from D:\MyBill\app\src\main\AndroidManifest.xml:6:48-80
+	android:icon
+		ADDED from D:\MyBill\app\src\main\AndroidManifest.xml:6:18-47
+activity#com.anoic.AccoutBook.AccountsBook
+ADDED from D:\MyBill\app\src\main\AndroidManifest.xml:7:9-14:20
+	android:label
+		ADDED from D:\MyBill\app\src\main\AndroidManifest.xml:8:19-51
+	android:name
+		ADDED from D:\MyBill\app\src\main\AndroidManifest.xml:7:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\MyBill\app\src\main\AndroidManifest.xml:10:13-13:29
+action#android.intent.action.MAIN
+ADDED from D:\MyBill\app\src\main\AndroidManifest.xml:11:17-69
+	android:name
+		ADDED from D:\MyBill\app\src\main\AndroidManifest.xml:11:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\MyBill\app\src\main\AndroidManifest.xml:12:17-77
+	android:name
+		ADDED from D:\MyBill\app\src\main\AndroidManifest.xml:12:27-74
+activity#com.anoic.AccoutBook.MonthGridActivity
+ADDED from D:\MyBill\app\src\main\AndroidManifest.xml:15:3-85
+	android:screenOrientation
+		ADDED from D:\MyBill\app\src\main\AndroidManifest.xml:15:47-83
+	android:name
+		ADDED from D:\MyBill\app\src\main\AndroidManifest.xml:15:13-46
+activity#com.anoic.AccoutBook.ListViewActivity
+ADDED from D:\MyBill\app\src\main\AndroidManifest.xml:16:3-47
+	android:name
+		ADDED from D:\MyBill\app\src\main\AndroidManifest.xml:16:13-45
+activity#com.anoic.AccoutBook.AddRecordsActivity
+ADDED from D:\MyBill\app\src\main\AndroidManifest.xml:17:3-94
+	android:theme
+		ADDED from D:\MyBill\app\src\main\AndroidManifest.xml:17:48-91
+	android:name
+		ADDED from D:\MyBill\app\src\main\AndroidManifest.xml:17:13-47
+activity#com.anoic.AccoutBook.SetPassActivity
+ADDED from D:\MyBill\app\src\main\AndroidManifest.xml:18:3-91
+	android:theme
+		ADDED from D:\MyBill\app\src\main\AndroidManifest.xml:18:45-88
+	android:name
+		ADDED from D:\MyBill\app\src\main\AndroidManifest.xml:18:13-44
+uses-sdk
+INJECTED from D:\MyBill\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\MyBill\app\src\main\AndroidManifest.xml
+INJECTED from D:\MyBill\app\src\main\AndroidManifest.xml
+INJECTED from D:\MyBill\app\src\main\AndroidManifest.xml
+INJECTED from D:\MyBill\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\MyBill\app\src\main\AndroidManifest.xml
+		ADDED from D:\MyBill\app\src\main\AndroidManifest.xml
+		INJECTED from D:\MyBill\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\MyBill\app\src\main\AndroidManifest.xml
+		ADDED from D:\MyBill\app\src\main\AndroidManifest.xml
+		INJECTED from D:\MyBill\app\src\main\AndroidManifest.xml

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_centerInParent="true"
+>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/pathbg"
+  >
+			<TextView 
+			android:id="@+id/totalmoney"
+				android:layout_height="wrap_content"	
+				android:layout_width="fill_parent"
+				android:layout_marginLeft="10dip"
+				android:gravity="center_vertical"
+				android:paddingTop="15dip"
+				android:textColor="#ffffff"
+				android:text="本月综合累计:  支出:0000元    收入:0000元"
+			/>
+	</LinearLayout>
+	
+	<ListView 
+		android:id="@+id/mlistview"
+	    android:layout_width="fill_parent"
+	     android:layout_height="wrap_content"	   
+	    android:layout_marginBottom="10px"
+	    android:layout_marginTop="130px"
+	/>
+
+	<GridView
+		android:id="@+id/GridView_toolbar"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentStart="true"
+		android:layout_alignParentBottom="true"
+		android:layout_marginStart="0dp"
+		android:layout_marginBottom="0dp" />
+</RelativeLayout>

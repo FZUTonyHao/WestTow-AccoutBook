@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+    android:layout_width="fill_parent"
+	android:layout_height= "fill_parent"
+    >
+	<TableRow android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:paddingLeft="15dip"
+		android:paddingRight="15dip"
+	>
+	
+	
+	<TextView
+		android:id="@+id/tvaccesspass"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:text="访问密码:"
+	/>
+		<EditText android:id="@+id/etaccesspass"
+			android:layout_width="wrap_content"
+			android:minWidth="180dip"
+			android:layout_height="wrap_content"
+			android:hint="请输入访问密码"
+			android:password="true"
+			/>
+	
+	</TableRow>
+	
+	<TableRow 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:paddingLeft="15dip"
+		android:paddingRight="15dip"
+		>
+	
+		<TextView 
+			android:id="@+id/tvconfirmpass"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:text="确认密码:"
+			/>
+		<EditText android:id="@+id/etconfirmpass"
+			android:layout_width="wrap_content"
+			android:minWidth="180dip"
+			android:layout_height="wrap_content"
+			android:hint="请再输一次"
+			android:password="true"
+			/>
+	
+	</TableRow>
+		
+	<TableRow android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="5dip"
+		android:paddingLeft="15dip"
+		android:gravity="center"
+		>
+		
+		<ImageButton 
+			android:id="@+id/setpasssure"
+			android:src="@drawable/accept"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_marginLeft="5dip"
+			android:layout_marginRight="5dip"
+		/>
+		<ImageButton 
+			android:id="@+id/setpasscancel"
+			android:src="@drawable/cancel2"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_marginLeft="5dip"
+			android:layout_marginRight="5dip"
+		/>
+	</TableRow>
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:layout_centerInParent="true"
+	android:background="@drawable/back3"
+	android:orientation="vertical">
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:text="请选择月份"
+		android:textColor="@android:color/white"
+		android:textSize="35dip"
+		tools:targetApi=" " />
+
+	<GridView
+		android:id="@+id/GridView_2"
+		android:layout_width="fill_parent"
+		android:layout_height="80dp"
+		android:layout_marginStart="0dp"
+		android:layout_marginBottom="2dp" />
+
+	<GridView
+		android:id="@+id/mgridview"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_centerInParent="true"
+		android:horizontalSpacing="10px"
+		android:numColumns="3"
+		android:verticalSpacing="20px" />
+</LinearLayout>
